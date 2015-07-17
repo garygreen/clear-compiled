@@ -8,4 +8,4 @@ Standalone `clear-compiled` command for Laravel 5
 
 ## Why
 
-The current Laravel artisan command relies on being able to bootstrap the framework to run the command. If your providers has changed, it may not be able to bootstrap Laravel and the command will fail with an exception `PHP Fatal error: Class ".../.../*ServiceProvider" not found. This new `clear-compiled` command fixes that. :-)
+The current Laravel artisan command relies on being able to bootstrap the framework to run the command. If your providers has changed, it may not be able to bootstrap Laravel and the command will fail with an exception `PHP Fatal error: Class ".../.../*ServiceProvider" not found.` This standalone `clear-compiled` command fixes that. :-)
